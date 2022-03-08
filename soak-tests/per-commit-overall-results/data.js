@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1645819599602,
+  "lastUpdate": 1646770038230,
   "repoUrl": "https://github.com/aws-observability/aws-otel-go",
   "entries": {
     "Soak Test Results - sample-app-golang_alpine-manual": [
@@ -351,6 +351,38 @@ window.BENCHMARK_DATA = {
           {
             "name": "Soak Test Average Virtual Memory Used",
             "value": 697.9490840517242,
+            "unit": "Megabytes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "bryan-aguilar",
+            "username": "bryan-aguilar",
+            "email": "46550959+bryan-aguilar@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "ae555b9011bf39fe74472e518376f21061e4d906",
+          "message": "Add PR Build workflow (#151)\n\n* Add PR Build workflow\r\n\r\n* update pr build\r\n\r\n* update checkout for image build\r\n\r\n* remove test branch\r\n\r\n* Cache go and use docker build-push\r\n\r\n* Update test branch\r\n\r\n* Fix bad dash\r\n\r\n* remove changes need\r\n\r\n* update context\r\n\r\n* remove test branch",
+          "timestamp": "2022-03-07T23:05:18Z",
+          "url": "https://github.com/aws-observability/aws-otel-go/commit/ae555b9011bf39fe74472e518376f21061e4d906"
+        },
+        "date": 1646770037786,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Soak Test Average CPU Load",
+            "value": 0.00011904761904761906,
+            "unit": "Percent"
+          },
+          {
+            "name": "Soak Test Average Virtual Memory Used",
+            "value": 696.6171875,
             "unit": "Megabytes"
           }
         ]
