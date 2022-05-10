@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1649362106602,
+  "lastUpdate": 1652213558659,
   "repoUrl": "https://github.com/aws-observability/aws-otel-go",
   "entries": {
     "Soak Test Results - sample-app-golang_alpine-manual": [
@@ -447,6 +447,38 @@ window.BENCHMARK_DATA = {
           {
             "name": "Soak Test Average Virtual Memory Used",
             "value": 695.9668642241379,
+            "unit": "Megabytes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "297a19ab5666b82dbd9c8e7aa914f377099a88b0",
+          "message": "Bump go.opentelemetry.io/contrib/propagators/aws in /sampleapp (#179)\n\nBumps [go.opentelemetry.io/contrib/propagators/aws](https://github.com/open-telemetry/opentelemetry-go-contrib) from 1.6.0 to 1.7.0.\r\n- [Release notes](https://github.com/open-telemetry/opentelemetry-go-contrib/releases)\r\n- [Changelog](https://github.com/open-telemetry/opentelemetry-go-contrib/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/open-telemetry/opentelemetry-go-contrib/compare/v1.6.0...v1.7.0)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: go.opentelemetry.io/contrib/propagators/aws\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\n\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2022-05-10T17:48:53Z",
+          "url": "https://github.com/aws-observability/aws-otel-go/commit/297a19ab5666b82dbd9c8e7aa914f377099a88b0"
+        },
+        "date": 1652213558293,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Soak Test Average CPU Load",
+            "value": 0.00017857142857142857,
+            "unit": "Percent"
+          },
+          {
+            "name": "Soak Test Average Virtual Memory Used",
+            "value": 696.0565732758621,
             "unit": "Megabytes"
           }
         ]
